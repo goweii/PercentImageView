@@ -12,58 +12,64 @@
         android:orientation="vertical">
 
         <per.goweii.percentimageview.percentimageview.PercentImageView
-            android:layout_width="match_parent"
+            android:id="@+id/piv_1"
+            android:layout_width="200dp"
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_launcher_background"
-            app:basics="width"
-            app:percent="0.6" />
+            app:piv_basics="width"
+            app:piv_percent="0.6" />
 
         <per.goweii.percentimageview.percentimageview.PercentImageView
-            android:layout_width="match_parent"
+            android:id="@+id/piv_2"
+            android:layout_width="200dp"
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_launcher_background"
-            app:basics="width"
-            app:percent="1" />
+            app:piv_basics="width"
+            app:piv_percent="1" />
 
         <per.goweii.percentimageview.percentimageview.PercentImageView
-            android:layout_width="match_parent"
+            android:id="@+id/piv_3"
+            android:layout_width="200dp"
             android:layout_height="0dp"
             android:layout_margin="5dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_launcher_background"
-            app:basics="width"
-            app:percent="1.2" />
+            app:piv_basics="width"
+            app:piv_percent="1.2" />
 
         <per.goweii.percentimageview.percentimageview.PercentImageView
+            android:id="@+id/piv_4"
             android:layout_width="0dp"
             android:layout_height="200dp"
             android:layout_margin="5dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_launcher_background"
-            app:basics="height"
-            app:percent="0.6" />
+            app:piv_basics="height"
+            app:piv_percent="0.6" />
 
         <per.goweii.percentimageview.percentimageview.PercentImageView
+            android:id="@+id/piv_5"
             android:layout_width="0dp"
             android:layout_height="200dp"
             android:layout_margin="5dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_launcher_background"
-            app:basics="height"
-            app:percent="1" />
+            app:piv_basics="height"
+            app:piv_percent="1" />
 
         <per.goweii.percentimageview.percentimageview.PercentImageView
+            android:id="@+id/piv_6"
             android:layout_width="0dp"
             android:layout_height="200dp"
             android:layout_margin="5dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_launcher_background"
-            app:basics="height"
-            app:percent="1.2" />
+            app:piv_basics="height"
+            app:piv_percent="1.2" />
 
     </LinearLayout>
 
